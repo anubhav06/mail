@@ -1,0 +1,43 @@
+textarea {
+    min-height: 400px;
+}
+
+.columnSide {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+  }
+.columnMiddle {
+  float: left;
+  width: 60%;
+  padding-left: 65px;
+}
+  
+.row{
+  border: 1px solid black;
+  background-color: white;
+  padding: 4px 0px;
+}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.divTextArea {
+    padding: 2px;
+    width: 100%;
+    height: 200px;
+    border: solid 1px lightgrey;
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+/*.form-control:disabled, .form-control[readonly]{
+  background-color: white;
+  border: none;
+}*/
